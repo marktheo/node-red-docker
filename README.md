@@ -11,3 +11,10 @@ docker volume create node-red-data
 ```
 docker compose up -d
 ```
+
+<br>
+
+**Install a MQTT broker and configure on port 1883**
+```
+node-red-contrib-aedes
+```
